@@ -1,0 +1,430 @@
+@media screen and (max-width:1600px) {
+    .hotel_banner_right {
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width:1380px) {
+    .end_left ul li a {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:1199px) {
+    .end_left ul {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+        background-color: #fff;
+        transform: translateX(100%);
+        transition: all 0.3s linear;
+        z-index: 100;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .menuToggle .navbar-menu {
+        transform: translateX(0);
+        justify-content: flex-start;
+    }
+
+    .navbar-menu ul {
+        flex-direction: column;
+
+    }
+
+    .menu-toggle-btn {
+        display: block !important;
+    }
+
+    .menu-close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block !important;
+        text-align: end;
+        z-index: 55;
+        font-size: 21px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .signup-btn,
+    .login-btn {
+        margin-left: 0;
+    }
+
+    .btn {
+        max-width: 150px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .home_banner_right {
+        height: 500px;
+    }
+
+    .banner-btn {
+        padding: 10px 15px;
+        font-size: 17px;
+    }
+
+    .our-pormises_wrap p {
+        font-size: 18px;
+    }
+
+    .logo-container a,
+    .logo-bottom a {
+        width: 280px;
+    }
+
+    .custom-blog-card-image {
+        height: 270px;
+    }
+
+    .custom-blog-card-content h3 {
+        font-size: 22px;
+    }
+
+    #login-signup button[type="submit"] {
+        font-size: 19px;
+    }
+
+    .one_end.one_end_address {
+        justify-content: start;
+        margin-top: 10px;
+    }
+
+    .social_profile ul li a {
+        margin-right: 5px;
+    }
+
+    .secure_links {
+        padding-top: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width:992px) {
+    .betciti_banner {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+
+    .custom-hotel-img-side,
+    .custom-hotel-text-side {
+      width: 100%;
+    }
+    .custom-hotel-flex {
+      flex-direction: column;
+    }
+    .custom-hotel-text-side {
+      padding: 30px 15px;
+    }
+
+    .img_bn {
+        display: none;
+    }
+
+    .left_side {
+        padding: 20px 20px 40px;
+    }
+
+    .add_le {
+        padding: 20px 20px 40px;
+    }
+
+    .contact_section {
+        padding: 40px 0;
+    }
+
+    .img-area {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .detail_box {
+        margin-left: 0px;
+        height: auto;
+    }
+
+    .detail_box.one {
+        margin-right: 0px;
+        height: auto;
+    }
+
+    .secure_links {
+        padding-top: 0;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .one_end.one_end_address {
+        justify-content: center;
+    }
+
+    .one_end ul li {
+        border-right: unset;
+        padding-right: 0;
+    }
+
+    .one_end.one_end_menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one_end.one_end_menu ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image_side,
+    .text_side {
+        width: 100%;
+    }
+
+    .both_into {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .end-blocks h3 {
+        font-size: 28px;
+    }
+
+    .our-pormises_wrap p {
+        font-size: 17px;
+    }
+
+
+    .logo-container a,
+    .logo-bottom a {
+        width: 220px;
+    }
+
+    #login-signup button[type="submit"] {
+        font-size: 18px;
+    }
+
+    p.jump-text {
+        font-size: 15px;
+    }
+
+    .gaime_img.one {
+        height: 350px;
+    }
+
+    .txt {
+        margin-bottom: 30px;
+    }
+
+    .txt h2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .pri_ban {
+        position: relative;
+        padding-bottom: 40px;
+    }
+
+    .faq-container {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .top_img {
+        height: 400px;
+    }
+
+    .faq-content {
+        padding-right: 0;
+    }
+
+    .banner_box h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    .info_priterm-content-grp h3 {
+        font-size: 20px;
+    }
+
+    .betciti_banner {
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .text {
+        font-size: 18px;
+    }
+
+    .text-left {
+        flex-direction: column;
+    }
+
+
+    .fit_right {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .img-area {
+        grid-template-columns: 1fr;
+    }
+
+    .social-icons {
+        height: 40px;
+        width: 40px;
+    }
+
+    .social-ikons {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .menu-toggle-btn {
+        width: 21px;
+        height: 21px;
+    }
+
+    .home_banner_right {
+        height: 350px;
+    }
+
+    .home_banner_left {
+        max-width: 400px;
+    }
+
+    .banner-btn {
+        padding: 9px 15px;
+        font-size: 17px;
+    }
+
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea,
+    #contact select {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    #contact button[type="submit"] {
+        padding: 8px 19px;
+        font-size: 16px;
+    }
+
+    .contact-card1-image {
+        height: 240px;
+    }
+
+    #login-signup input[type="text"],
+    #login-signup input[type="email"],
+    #login-signup input[type="tel"],
+    #login-signup input[type="url"],
+    #login-signup textarea {
+        font-size: 14px;
+    }
+
+    #login-signup button[type="submit"] {
+        font-size: 16px;
+    }
+
+    p.jump-text {
+        font-size: 13px;
+    }
+
+    .info_priterm-content-grp h3 {
+        font-size: 18px;
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+
+    .logo-container a,
+    .logo-bottom a {
+        width: 120px;
+        float: left;
+    }
+
+    .fit_left ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .end.end.py-5 {
+        padding-top: 0;
+    }
+
+    .end-blocks {
+        width: 100%;
+        padding: 20px 0 0;
+    }
+
+    .end-blocks h3 {
+        font-size: 22px;
+    }
+
+    .end-disclaimer p {
+        font-size: 13px;
+    }
+
+    .end-copyright-ssl-wrap {
+        padding: 30px 0px 0 0px;
+    }
+
+    .copyright-wrap p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .banner-btn {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    .info_priterm-wrap {
+        padding: 30px 20px;
+    }
+
+    .info_priterm-content-grp h3 {
+        font-size: 16px;
+    }
+}

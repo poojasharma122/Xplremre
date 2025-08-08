@@ -283,6 +283,14 @@
     .txt h2 {
         margin-bottom: 20px;
     }
+
+    .after_banner_inner_text_second {
+        margin-right:0;
+    }
+
+    .after_banner_inner_text {
+        margin-left:0;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -319,6 +327,14 @@
 
     .betciti_banner {
         height: 100%;
+    }
+
+    .pt-8{
+        padding-top: 2.5rem;
+    }
+
+    .pb-8{
+        padding-bottom: 2.5rem;
     }
 
 }

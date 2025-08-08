@@ -1,4 +1,4 @@
-@media screen and (max-width:1600px) {
+/* @media screen and (max-width:1600px) {
     .hotel_banner_right {
         height: 600px;
     }
@@ -10,7 +10,22 @@
         font-size: 16px;
     }
 
+} */
+
+
+@media screen and (max-width: 1200px){
+    .navigation-bar {
+        display: flex;
+    }
+    .navigation-menu, .menu_right {
+        display: none;
+    }
+    
+   .brand-container_mobile {
+        display: block;
+    }
 }
+
 
 @media screen and (max-width:1199px) {
     .end_left ul {

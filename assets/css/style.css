@@ -265,7 +265,7 @@ img {
 .navigation-bar {
     display: grid;
     width: 100%;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
 }
 
@@ -376,10 +376,15 @@ img {
     background: url(../images/logo.png) no-repeat left / contain;
     height: 70px;
     width: 100%;
-    max-width: 200px !important;
+    max-width: 150px !important;
     transition: 0.3s all ease;
     text-align: center;
     margin: 0 auto;
+}
+
+.header_logo {
+    text-align: center;
+    width: 150px;
 }
 
 .menu-close-btn {
@@ -1042,21 +1047,23 @@ input.form-control.sub_btn:hover {
     padding: 40px;
     /* background: var(--secondary-color); */
     text-align: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     margin-bottom: 40px;
 }
 
 .dis_txt p {
-    color: var(--primary-color);
+    color:#fff;
 }
 
 .dis_txt h2 {
-    color: var(--primary-color);
-}
-
-.dis_txt h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 27px;
     margin-bottom: 15px;
 }
+
+
 
 .plan_txt h2 {
     color: var(--secondary-color);
@@ -1224,7 +1231,7 @@ a.common_btn:hover {
 
 /* why choose section start  */
 .choose-sec {
-    background-image: url(../images/home_banner.jpg);
+    background-image: url(../images/home-page-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1433,7 +1440,8 @@ a.common_btn:hover {
 
 .footer-heading h3 {
     font-size: 1.5625rem;
-    color: #000;
+    color: #fff;
+    line-height: 27px;
 }
 
 .footer-heading {
@@ -1442,14 +1450,14 @@ a.common_btn:hover {
 
 .footer-links ul li a {
     font-size: 1.125rem;
-    color: #1f1f1f;
+    color: #fff;
     text-transform: capitalize;
     transition: all 0.3s linear;
 
 }
 
 .footer-links ul li a:hover {
-    color: #fff;
+    color: #000;
 }
 
 .footer-links ul li {
@@ -1463,7 +1471,7 @@ a.common_btn:hover {
     padding-top: 20px;
     margin-top: 10px;
     text-align: center;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #000;
     /* margin-bottom: 30px; */
 }
 
@@ -1476,10 +1484,11 @@ a.common_btn:hover {
     font-size: 1.25rem;
     /* border: 1px solid #e9344a; */
     color: #e9344a;
+    fill: #fff;
 }
 
 .social-link ul li a span:hover {
-    background-color: #fff;
+    background-color: #000;
     color: #fff;
 }
 
@@ -1488,7 +1497,7 @@ a.common_btn:hover {
     align-items: center;
     gap: 10px;
     font-size: 1.125rem;
-    color: #1f1f1f;
+    color: #fff;
 }
 
 .social-link ul li {
@@ -1505,7 +1514,7 @@ a.common_btn:hover {
 .copy-right p {
     font-size: 1rem;
     margin-bottom: 0;
-    color: #1f1f1f;
+    color: #fff;
 }
 
 .ssl-img {

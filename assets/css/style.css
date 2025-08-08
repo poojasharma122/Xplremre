@@ -1608,7 +1608,7 @@ a.common_btn:hover {
 }
 
 .info-leftImg {
-    background-image: url("../images/home_banner.jpg");
+    background-image: url("../images/after-banner-img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1618,7 +1618,7 @@ a.common_btn:hover {
 }
 
 .info-leftLeft .info-leftImg {
-    background-image: url("../images/home_banner.jpg");
+    background-image: url("../images/after-banner-img2.jpg");
 
 }
 

@@ -77,6 +77,12 @@
         justify-content: flex-start;
     }
 
+    .menu-toggle .brand-container_mobile {
+        transform: translateX(0);
+    }
+    .header_logo {
+        margin: 0 auto;
+    }
     .navbar-menu ul {
         flex-direction: column;
 

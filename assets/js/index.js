@@ -1,7 +1,9 @@
-document.ready(function(){
+$(document).ready(function(){
   $(".menu-toggle-btn").click(function(){
-    $("body").toggleClass("menu-toggle");
-    $(".menu-close-btn").removeClass("menu-toggle");
+    $("body").addClass("menu-toggle");
+  });
+
+  $(".menu-close-btn").click(function(){
+    $("body").removeClass("menu-toggle");
   });
 });
-

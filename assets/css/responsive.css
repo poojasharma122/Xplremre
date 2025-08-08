@@ -24,6 +24,26 @@
    .brand-container_mobile {
         display: block;
     }
+
+    .brand-container_mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #222;
+        bottom: 0;
+        padding: 40px;
+        width: 350px;
+        z-index: 99;
+        transition: all 0.2s linear;
+        transform: translateX(-100%);
+    }
+    .navigation-bar li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .navigation-bar li a {
+        color: #fff;
+        font-size: 18px;
+    }
 }
 
 

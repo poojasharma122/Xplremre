@@ -352,6 +352,35 @@
         height: 100%;
     }
 
+    .second_after_banner {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .second_after_banner_right {
+        width: 100%;
+    }
+
+    .second_after_banner_right {
+        padding: 1.5rem;
+    }
+
+    .info-left {
+        width: 100%;
+    }
+
+    .info-left {
+        flex-wrap: wrap;
+    }
+
+    .info-leftRight, .info-leftLeft {
+        width: 100%;
+    }
+
+    .info-leftRight {
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (max-width:575px) {
@@ -458,6 +487,14 @@
         padding: 15px;
     }
 
+    .banner_section {
+        height: 28.75rem;
+    }
+
+    .top-hotel-heading h2 {
+        font-size: 30px;
+    }
+
 }
 
 
@@ -545,4 +582,21 @@
         font-size: 2rem;
         margin-bottom: 10px;
     }
+
+    .banner_section {
+        height: 28.75rem;
+    }
+
+    .custom-hotel-img-side {
+        min-height: 315px; 
+    }
+
+    .custom-hotel-text-side h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .custom-hotel-text-side p {
+        font-size: 16px;
+}
 }

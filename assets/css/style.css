@@ -1639,8 +1639,9 @@ a.common_btn:hover {
 .top-hotel-heading h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     line-height: 100%;
+    margin-bottom: 15px;
 }
 
 .custom-hotel-section {

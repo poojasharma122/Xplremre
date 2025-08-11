@@ -497,6 +497,11 @@
         font-size: 30px;
     }
 
+    .social-link {
+        max-width: 140px;
+        margin: 0 auto;
+    }
+
 }
 
 
@@ -600,5 +605,10 @@
 
     .custom-hotel-text-side p {
         font-size: 16px;
+}
+
+.strip_inner_text h2 {
+    font-size: 1.5rem;
+    line-height: 30px;
 }
 }

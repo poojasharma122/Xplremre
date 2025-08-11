@@ -340,7 +340,7 @@ img {
     pointer-events: none;
 }
 
-.navigation-menu ul li a.dropdown-toggle::after {
+.navigation-menu ul li a.header-list::after {
     height: 1.5px !important;
     transform: scaleX(0);
     transition: transform 0.3s ease-out;
@@ -360,15 +360,15 @@ img {
     transform: scaleX(0.9);
 }
 
-.navigation-menu ul li a.dropdown-toggle::after {
+.navigation-menu ul li a.header-list::after {
     height: 1.5px !important;
     background-color: #898ac4 !important;
     margin-left: 0 !important;
     border: none, !important;
 }
 
-.navigation-menu ul li a.dropdown-toggle:hover::after,
-.navigation-menu ul li a.dropdown-toggle.active::after {
+.navigation-menu ul li a.header-list:hover::after,
+.navigation-menu ul li a.header-list.active::after {
     transform: scaleX(0.9);
 }
 

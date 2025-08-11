@@ -381,6 +381,10 @@
         margin-top: 20px;
     }
 
+    .banner_box {
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (max-width:575px) {

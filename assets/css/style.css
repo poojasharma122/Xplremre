@@ -2010,7 +2010,7 @@ a.common_btn:hover {
 
 
   .contact_section {
-    background-image: url('../images/home_banner.jpg');
+    background-image: url('../images/phone-735060_1280.jpg');
     background-size: cover;
     background-position: center;
     min-height: 500px;
@@ -2020,10 +2020,11 @@ a.common_btn:hover {
     z-index: 2;
     position: relative;
   }
+
   .contact_form_box {
-    background: rgba(255, 255, 255, 0.397);
+    background: rgb(255 255 255 / 20%);
     backdrop-filter: blur(6px);
-  }
+}
   .contact_section-overlay {
     position: absolute;
     top: 0; left: 0;

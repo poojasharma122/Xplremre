@@ -610,5 +610,15 @@
 .strip_inner_text h2 {
     font-size: 1.5rem;
     line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.blog_desc h2 {
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.blog_desc img {
+    height: 22.25rem;
 }
 }
